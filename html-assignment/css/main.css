@@ -5,13 +5,13 @@ body {
 
 footer, header {
     background-image: linear-gradient(to right bottom, #3c437e, #445688, #526990, #657b97, #7b8c9d);
+    color:white;
 }
 
 .site-title {
-    color:rgb(201, 245, 245);
+    color:#f2ffac;
     font-size: 40px;
-    font-family:Arial;
-}
+    }
 
 #image {
     box-shadow: 0 2px 1px black;
