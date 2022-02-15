@@ -7,3 +7,8 @@ footer, header{
     background-image: linear-gradient(to top, #454553, #555667, #65677c, #767992, #878ba8);
 }
 
+.site-title {
+    color:rgb(201, 245, 245);
+    font-size: 40px;
+    font-family:Arial;
+}
