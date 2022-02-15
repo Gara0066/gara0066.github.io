@@ -20,6 +20,8 @@ footer, header {
 a:link, a:visited {
     color:rgb(255, 255, 255);
     text-decoration: none;
+    background-color: #7c9200;
+    border-style: solid;
 }
 
 a:hover, a:hover {
