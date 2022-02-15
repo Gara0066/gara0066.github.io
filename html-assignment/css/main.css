@@ -4,7 +4,7 @@ body {
 }
 
 footer, header {
-    background-image: linear-gradient(to bottom, #555667, #65677c, #767992, #878ba8);
+    background-image: linear-gradient(to right bottom, #3c437e, #445688, #526990, #657b97, #7b8c9d);
 }
 
 .site-title {
@@ -22,10 +22,20 @@ a:link, a:visited {
     text-decoration: none;
     background-color: #7c9200;
     border-style: solid;
+    border-width: 2px 3px 3px 2px;
+    border-color:black;
 }
 
-a:hover, a:hover {
+a:hover, a:active {
     text-decoration: none;
     background-color: rgb(0, 0, 0);
     border-style: outset;
+    
+}
+ul {
+    list-style-type: square;
+}
+
+li:nth-child(odd) {
+    background-color: #f2ffac;
 }
