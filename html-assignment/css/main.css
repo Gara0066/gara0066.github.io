@@ -2,3 +2,8 @@ body {
     font-size: 18px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+footer, header{
+    background-image: linear-gradient(to top, #454553, #555667, #65677c, #767992, #878ba8);
+}
+
