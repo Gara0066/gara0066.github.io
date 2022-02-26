@@ -14,7 +14,7 @@ footer, header {
     }
 
 #image {
-    box-shadow: 0 2px 1px black;
+    box-shadow: 0 0 2px 1px black;
 }
 
 a:link, a:visited {
