@@ -1,8 +1,16 @@
 body {
+    /*adds bckgrnd img to get gradient*/
     background-image: linear-gradient(to bottom, #405f83, #4e7d98, #669aab, #85b7bd, #aad4cf);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*adds line-height for readability*/
+    line-height: 1.5;
 }
 h1 {
     color: #fff;
     font-size: 50px;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
 }
