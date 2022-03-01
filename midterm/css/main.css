@@ -11,14 +11,14 @@ html{
 /*contains elements and centers them*/
 .wrapper {
     margin: 0 auto;
-    background-color: #aad4cf;
+    background-color: #ccece9;
     width: 1023px;
     max-height: max-content;
 }
   body {
     
     /*adds bckgrnd img to get gradient*/
-    background-image: linear-gradient(to bottom, #aad4cf, #97cdc6, #83c6bd, #6ebeb4, #57b7ab, #56b7ab, #55b6aa, #54b6aa, #69bdb2, #7cc4bb, #8ecac3, #a0d1cb);
+    background-color: #aad4cf;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /*adds line-height for readability*/
     line-height: 1.5;
