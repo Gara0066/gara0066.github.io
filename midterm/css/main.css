@@ -58,8 +58,8 @@ h1 {
 nav li a {
     color:black;
     font-size: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 a:link {    
@@ -72,7 +72,7 @@ a:hover, a:active {
     border: #669aab;
     border-style: outset;
 }
-/* adds dividers between nav elements*/
+/* adds dividers between nav elements excluding last input*/
 nav > ul > li:not(:last-child) {
     border-right: 2px solid #636363;
     padding-right: 8em;
