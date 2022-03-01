@@ -97,18 +97,37 @@ p {
 
 /* affects form design, adds solid border*/
 form {
+    margin: 20px;
+    padding: 20px 30px 20px 30px;
+    border: #636363;
+    border-style: solid;
+    border-width: medium;
     
-    padding-left: 20px ;
-    
+}
+input[type="text"] { 
+    width: 100%;
+}
+
+input[ type="email"] {
+    width: 100%;
+
+
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+
 }
 /* styles the send button*/
 button {
+    
     background-color:#ececec;
     border: rgb(48, 48, 48);
     color:black;
     padding: 10px 25px;
     text-decoration: none;
-    margin: 2px 2px;
+    margin: 30px 2px 2px;
     cursor: pointer;
 }
 
