@@ -18,8 +18,7 @@ html{
   body {
     
     /*adds bckgrnd img to get gradient*/
-    background-image: linear-gradient(to top, #669aab, #85b7bd, #aad4cf);
-    
+    background-image: linear-gradient(to bottom, #aad4cf, #97cdc6, #83c6bd, #6ebeb4, #57b7ab, #56b7ab, #55b6aa, #54b6aa, #69bdb2, #7cc4bb, #8ecac3, #a0d1cb);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /*adds line-height for readability*/
     line-height: 1.5;
@@ -44,18 +43,44 @@ h1 {
 }
    
 
-/*display nav inline- affects averall design of nav*/
+/*display nav inline*/
 #horizontal_menu li {
         display:inline-block;
-        margin: 0 100px 0;
+        margin: 0 20px 0;
+        padding-left: 100px;
+        padding-right: 100px;
+               
     
 }
 
+/*affects overall design of nav*/
+
 nav li a {
     color:black;
-    border: #ececec;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
+a:link {    
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    background-color: rgb(225, 255, 253);
+    border: #669aab;
+    border-style: outset;
+}
+/* adds dividers between nav elements*/
+nav > ul > li:not(:last-child) {
+    border-right: 2px solid #636363;
+    padding-right: 8em;
+    padding-left: 5em;
+}
+   
+
+/*Align h2 to img and p and affects size*/
 h2 {
     font-size: 2rem;
     padding-left: 20px;
