@@ -25,23 +25,24 @@ html{
     line-height: 1.5;
 }
 
-/* place main banner in center with no padding*/
-.banner {
-    position: relative;
-    text-align: center;
-    padding: 0;
-    z-index: 0;
-}
-   
-
 /*affects the h1 design*/
-.heading {
-    font-size: 50px;
+h1 {
+    position: absolute;
     color: #fff;
     font-size: 3.5rem;
-    position:relative;
+    width: 100%;
+    top: 50%;
+    text-align: center;
     
 }
+
+/* place main container in center with no padding*/
+.container {
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+}
+   
 
 /*display nav inline*/
 nav li {
