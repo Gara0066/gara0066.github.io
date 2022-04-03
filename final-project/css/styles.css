@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: auto;
+    padding: 0;
     
     /*Adds basic css layout (further modifications in next days)*/ 
 }
@@ -16,7 +16,7 @@ body {
 .wrapper {
     max-width: 600px;
     margin: 0 auto;
-    overflow: none;    
+    overflow: auto;
 }
 
 .topnav {
