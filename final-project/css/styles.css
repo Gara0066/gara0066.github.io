@@ -1,3 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: auto;
+    
+    /*Adds basic css layout (further modifications in next days)*/ 
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
 body {
     background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: none;    
+}
+
+.topnav {
+    background-color: #222222;
+}
+
+
+ul {
+    list-style: none;
+    
+}
+
+.Search-bar {
+   
+    padding: 10px;
+}
+
+.banner {
+    max-width: 600px;
+}
+.about {
+    
+    width: 100%;
+}
+
+.vision {
+    max-width: 600px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.map iframe {
+    border: 10px;
+    height: 400px;
+    width: 100%;
+}
+
+footer {
+    background-color: #222222;
+    color: #c78b07;
+    padding: 10px;
 }
