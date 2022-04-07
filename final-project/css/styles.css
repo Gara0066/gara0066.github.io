@@ -12,7 +12,11 @@ html {
 body {
     background-color: rgb(255, 255, 255);
 }
+header {
+    max-width: 600px;
+    margin: 0 auto;
 
+}
 .wrapper {
     max-width: 600px;
     margin: 0 auto;
@@ -58,7 +62,9 @@ table, th, td {
 }
 
 footer {
+    max-width: 600px;
     background-color: #222222;
     color: #c78b07;
     padding: 10px;
+    margin: 0 auto;
 }
