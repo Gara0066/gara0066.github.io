@@ -41,15 +41,15 @@ ul {
 }
 
 .banner {
-    max-width: 600px;
+    max-width: 100%;
 }
 .about {
     
-    width: 100%;
+    max-width: 100%;
 }
 
-.vision {
-    max-width: 600px;
+.boats {
+    max-width: 100%;
 }
 
 table, th, td {
