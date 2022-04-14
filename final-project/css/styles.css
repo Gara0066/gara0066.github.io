@@ -21,8 +21,9 @@ header {
 }
 .wrapper {
     max-width: 100%;
-    margin-left: 20px;
+    margin-left: 40px;
     overflow: hidden;
+
 }
 
 nav {
@@ -124,10 +125,26 @@ h1 {
     color: white;
     z-index: ;
 }
+
 h2 {
     font-size: 40px;
     font-weight:bold;
 }
+
+button[type="button"] {
+    background-color: #222;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
 
 h3 {
     font-size: 30px;
@@ -150,6 +167,7 @@ img:not(#logo) {
 }
 .digital,.marketing, .video, .web, .print {
     background-color: #ffe6ac;
+    padding: 0 0 20px 0;
 
 }
 .vision {
