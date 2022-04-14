@@ -22,9 +22,10 @@
     <header>
         <div class="topnav">
             <nav>
-                <img src="images/logo.png" class="logo" alt="stars-logo">
-                <ul id="menu">
-                    <li><a class="active" href="#Home" >Home</a></li>
+                <ul>
+                    <div class="logo"><a href="#" ><img src="images/logo.png" alt="stars-logo"></a>
+                    </div>
+                    <li><a href="#Home" class="active" >Home</a></li>
                     <li><a href="#About-Us">About Us</a></li>
                     <li><a href="#Services">Services</a></li>
                     <li><a href="#Team">Team</a></li>
@@ -32,10 +33,10 @@
                 </ul>
                     <!--Adds class to modify the width of the search bar as per provided in the mock-up-->                
                 <div class="Search-bar">
-                    <form action="#" method="get">
-                            <input type="text" placeholder="Search" name="Search">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                    </form>
+                    <input type="text" class ="search" placeholder="Search" name="Search">
+                    <button type="submit" class="searchButton">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
                 </div>
             </nav>
         </div>
