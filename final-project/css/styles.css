@@ -20,8 +20,9 @@ header {
 
 }
 .wrapper {
-    max-width: 100%;
-    margin-left: 40px;
+    max-width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
     overflow: hidden;
 
 }
@@ -93,8 +94,8 @@ nav li a:hover:not(.active) {
     
   }
   .color-overlay {
-    width: 580px;
-    height: 600px;
+    width: 600px;
+    height: 95%;
     background-color: #222;
     opacity: 0.7;
     position: absolute;
@@ -104,10 +105,10 @@ nav li a:hover:not(.active) {
 
 .welcome {
     background-image: url("../images/main-banner.jpg");
+    width: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    padding: 20px;
     align-items: center;
     position: relative;
     z-index: -2;
@@ -129,6 +130,11 @@ h1 {
 h2 {
     font-size: 40px;
     font-weight:bold;
+    padding-left: 10px;
+}
+p {
+    padding: 0 10px 20px 10px;
+
 }
 
 button[type="button"] {
@@ -152,12 +158,11 @@ h3 {
 }
 
 img:not(#logo) {
-    width: 100%;
+    width: 590px;
 }
 
 .about {
     background-color: #ffe6ac;
-    max-width: 100%;
     overflow: hidden;
 }
 
@@ -165,15 +170,29 @@ img:not(#logo) {
     display: grid;
 
 }
-.digital,.marketing, .video, .web, .print {
+.digital,.marketing, .video, .web, .print, .bob, .john {
     background-color: #ffe6ac;
     padding: 0 0 20px 0;
 
 }
 .vision {
     background-image: url("../images/vision.jpg");
+    width: 600px;    
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    
 }
 
+hr {
+    border: 1px solid #c78c06;
+    width: 95%;
+}
 .contact {
     margin: 10px;
 }
