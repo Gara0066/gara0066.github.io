@@ -35,18 +35,27 @@ nav ul {
     text-align: center;
      
 }
+.logo img {
+    position:absolute;
+    margin-top: 5px;
+    display: block;
+   
+}
 
 nav ul li a {
-    display: block;
     color: #c78c06;
     padding: 20px;
     text-decoration: none;
+    display: grid;
+    
 
 }
 
 nav ul li a.active {
     background-color: #c78c06;
     color: #222;
+    height: 200px;
+    align-self: center;
     
 }
 
@@ -55,11 +64,30 @@ nav li a:hover:not(.active) {
     color: white;
 }
 
-.search-bar {
-   
-    padding: 10px;
+.Search-bar {
     width: 100%;
+    position: relative;
+    display: flex;
+    padding: 10px;;
+    
 }
+.search {
+    width: 100%;
+    border: 2px solid #c78c06;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+}
+.searchButton {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #c78c06;
+    background: #222;
+    text-align: center;
+    color: #c78c06;
+    cursor: pointer;
+    font-size: 20px;
+  }
 
 .banner {
     max-width: 100%;
