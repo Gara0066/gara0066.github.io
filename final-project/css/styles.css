@@ -89,12 +89,26 @@ nav li a:hover:not(.active) {
     font-size: 20px;
   }
 
-.banner {
-    max-width: 100%;
+.welcome {
+    background-color: url(./images\main-banner.jpg);
+    color: #fff;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    position: relative;
+    
+}
+.color-overlay {
+    width: 90%;
+    height: 80%;
+    background-color: #222;
+    opacity: 0.7;
+    position: absolute;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 60px;
+    z-index: 1;
 }
 
 .about {
