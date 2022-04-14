@@ -5,40 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/reset.css" rel="stylesheet">
-
     <title>MTM6130 Final Project- Gara0066</title>
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    
     <script src="https://kit.fontawesome.com/45479b93cf.js" crossorigin="anonymous"></script>
+
     <link href="css/styles.css" rel="stylesheet">
     
     
 </head>
 <body>     
     <!--Adds header to introduce webpage by placing a logo and to set navigational links-->
-        <header>
+    <header>
         <div class="topnav">
             <nav>
-                <!--Adds individual wrapper to affect and better control the design of the top navigation-->
-                <div class="wrapper">
-                    <img src="images/logo.png" alt="stars-logo">
-                    <ul id="menu">
-                        <li><a href="#Home" >Home</a></li>
-                        <li><a href="#About-Us">About Us</a></li>
-                        <li><a href="#Services">Services</a></li>
-                        <li><a href="#Team">Team</a></li>
-                        <li><a href="#Contact">Contact</a></li>
-                    </ul>
+                <img src="images/logo.png" class="logo" alt="stars-logo">
+                <ul id="menu">
+                    <li><a class="active" href="#Home" >Home</a></li>
+                    <li><a href="#About-Us">About Us</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Team">Team</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
                     <!--Adds class to modify the width of the search bar as per provided in the mock-up-->                
-                    <div class="Search-bar">
-                        <form action="#" method="get">
+                <div class="Search-bar">
+                    <form action="#" method="get">
                             <input type="text" placeholder="Search" name="Search">
                             <i class="fa-solid fa-magnifying-glass"></i>
-                        </form>
-                    </div>
+                    </form>
                 </div>
-             </nav>
-         </div>
-        </header>
+            </nav>
+        </div>
+    </header>
        <!--Addition to each section a div with class of wrapper to set a fixed width structure for the content of entire webpage-->
         <!--Adds class of welcome to affect the design by overlaying text over image-->
      <div class="welcome">
@@ -61,15 +62,15 @@
 
      <br><br>
      <!--Adds specific sections and divs per topic identified by classes so they can be selected and manipulated individually by using flex or grid to design a responsive and orginzed layout-->
-     <section class="services">
-        <div class="wrapper">
-            <div class="item">
-                <h2>Our Services</h2>
-                    <img src="images/digital.jpg" alt="laptop-cellphone-picture">
+    <section class="services">
+         <div class="wrapper">
+            <h2>Our Services</h2>
+            <div class="item"></div>
+                <img src="images/digital.jpg" alt="laptop-cellphone-picture">
                 <h3> Digital Transformation</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ullam, ad ut eligendi quia qui odit earum eius et animi perspiciatis? Tempore consequatur nesciunt maiores velit laboriosam, dolorem soluta fuga.</p>
-                    <button type="button">Digital Plans</button>
-                    <i class="fa-solid fa-caret-right"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ullam, ad ut eligendi quia qui odit earum eius et animi perspiciatis? Tempore consequatur nesciunt maiores velit laboriosam, dolorem soluta fuga.</p>
+                <button type="button">Digital Plans</button>
+                <i class="fa-solid fa-caret-right"></i>
             </div><br>
         
             <div class="item">     
@@ -101,8 +102,7 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut fugiat ad at voluptatem. Quibusdam quis dicta tenetur accusantium tempore architecto id unde pariatur quam, dolorem odio consectetur! Error, quia dolores!</p>
                     <button type="button">Print Plans</button>
                     <i class="fa-solid fa-caret-right"></i>
-            </div><br>
-        </div>
+            </div><br>       
      </section>
      <br>
      <section class="vision">
