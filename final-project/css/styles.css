@@ -89,29 +89,40 @@ nav li a:hover:not(.active) {
     cursor: pointer;
     font-size: 20px;
   }
+  .color-overlay {
+    width: 580px;
+    height: 600px;
+    background-color: #222;
+    opacity: 0.7;
+    position: absolute;
+    margin: 0;
+    z-index: -1;
+}
 
 .welcome {
-    background-color: url(./images\main-banner.jpg);
-    color: #fff;
+    background-image: url("../images/main-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 55% 55%;
     display: flex;
     padding: 20px;
     align-items: center;
     position: relative;
+    z-index: -2;
     
 }
-.color-overlay {
-    width: 90%;
-    height: 80%;
-    background-color: #222;
-    opacity: 0.7;
-    position: absolute;
-}
+
 
 h1 {
+    color: white;
     font-size: 60px;
     z-index: 1;
+    
 }
-
+.welcome p {
+    color: white;
+    z-index: ;
+}
 h2 {
     font-size: 40px;
     font-weight:bold;
@@ -140,11 +151,10 @@ img:not(#logo) {
     background-color: #ffe6ac;
 
 }
-
-
-.boats {
-    max-width: 100%;
+.vision {
+    background-image: url("../images/vision.jpg");
 }
+
 .contact {
     margin: 10px;
 }
