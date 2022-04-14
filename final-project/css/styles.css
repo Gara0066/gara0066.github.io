@@ -129,7 +129,6 @@ img:not(#logo) {
 .about {
     background-color: #ffe6ac;
     max-width: 100%;
-    margin: 0 auto;
     overflow: hidden;
 }
 
