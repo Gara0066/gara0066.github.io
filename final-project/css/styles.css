@@ -111,10 +111,21 @@ h1 {
     z-index: 1;
 }
 
+h2 {
+    font-size: 40px;
+    font-weight:bold;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .about {
     background-color: #ffe6ac;
     max-width: 100%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .services {
@@ -130,10 +141,44 @@ h1 {
 .boats {
     max-width: 100%;
 }
+.contact {
+    margin: 10px;
+}
+input[type=text],input[type=email],textarea {
+    width: 99%;
+    padding: 5px;
+    margin: 5px 0 5px 1px;
+    box-sizing: border-box;
+    border: 1px solid #222;
+    border-radius: 3px;
+}
+input[type=submit] {
+    background-color: #222;
+    color: #c78c06;
+    padding: 3px 6px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+    font-size: 22px;
+}
 
-table, th, td {
-    border: 2px solid black;
+table {
+    border: 1px solid #222;
     border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+td, th {
+    border: 1px solid #222;
+    text-align: left;
+    padding: 20px;
+
+}
+th {
+    background-color: #ffe6ac;
+    text-align: center;
 }
 
 .map iframe {
@@ -146,6 +191,10 @@ footer {
     max-width: 600px;
     background-color: #222;
     color: #c78c06;
-    padding: 10px;
-    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+footer a {
+    color: #c78c06;
 }
