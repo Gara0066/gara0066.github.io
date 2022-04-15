@@ -125,6 +125,12 @@ nav li a:hover {
     z-index: -2;
     
 }
+
+img:not(#logo) {
+    width: 600px;
+    height: auto;
+  }
+
 /* adds id connect to separate and modify only the design of the button for the welcome section*/
 #connect {
     background-color: #c78c06;
@@ -186,6 +192,7 @@ h3 {
 .digital,.marketing, .video, .web, .print, .bob, .john {
     background-color: #ffe6ac;
     padding: 0 0 20px 0;
+    max-width: 100%;
 
 }
 .vision {
@@ -246,7 +253,7 @@ table {
     border: 1px solid #222;
     border-collapse: collapse;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -262,7 +269,7 @@ th {
 }
 
 .map iframe {
-    border: 10px;
+    border: 5px;
     height: 400px;
     width: 100%;
 }
