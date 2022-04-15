@@ -1,3 +1,5 @@
+
+/* adds border-box to make responsive layout manageable by including padding for the entire length and width of webpage*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,15 +17,20 @@ body {
 }
 
 header {
-    max-width: 100%;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 10px;
 
 }
+.main {
+    max-width: 600px;
+
+}
+/* Adds a wrapper class to control the entire content( section and divs) of the webpage for a responsive arrangement*/
 .wrapper {
     max-width: 600px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 10px;
     overflow: hidden;
+    max-height: max-content;
 
 }
 
@@ -37,6 +44,7 @@ nav ul {
     text-align: center;
      
 }
+/* adds an id of logo to discriminate this specific image(star logo) without affecting the other images with the purpose of adjusting its size*/
 #logo {
     position:absolute;
     margin-top: 5px;
@@ -44,7 +52,7 @@ nav ul {
     margin-left: 50px;
    
 }
-
+/* adds layout of grid to display top nav in a row for easy management avoiding using float and clear*/
 nav ul li a {
     color: #c78c06;
     padding: 20px;
@@ -53,16 +61,17 @@ nav ul li a {
     
 
 }
-
+/* separates home nav link to affect the design because of its unique design*/
 nav ul li a.active {
     background-color: #c78c06;
     color: #222;
     height: 200px;
     align-self: center;
+    padding-top: 150px;
     
 }
-
-nav li a:hover:not(.active) {
+/* to affect just the design when the cursor is on top of each link for the navigation section*/
+nav li a:hover {
     background-color: #c78c06;
     color: white;
 }
@@ -82,6 +91,7 @@ nav li a:hover:not(.active) {
     padding: 10px;
     
 }
+/* add a class of searchbutton to style the icon by changing color, size, to match the overall color palette of the webpage and match the height of the search bar*/
 .searchButton {
     width: 40px;
     height: 40px;
@@ -90,12 +100,14 @@ nav li a:hover:not(.active) {
     color: #c78c06;
     cursor: pointer;
     font-size: 20px;
+    margin-top: 5px;
+
     
     
   }
   .color-overlay {
     width: 600px;
-    height: 95%;
+    height: 80%;
     background-color: #222;
     opacity: 0.7;
     position: absolute;
@@ -105,7 +117,8 @@ nav li a:hover:not(.active) {
 
 .welcome {
     background-image: url("../images/main-banner.jpg");
-    width: 600px;
+    max-width: 600px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -115,11 +128,17 @@ nav li a:hover:not(.active) {
     
 }
 
-
+#connect {
+    background-color: #c78c06;
+    color: #222;
+    font-weight: 600;
+    font-size: 22px;
+}
 h1 {
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     z-index: 1;
+    line-height: 1.5;
     
 }
 .welcome p {
@@ -134,6 +153,7 @@ h2 {
 }
 p, h3, h4 {
     padding: 0 10px 20px 10px;
+    line-height: 1.5;
 
 }
 
@@ -141,16 +161,14 @@ button[type="button"] {
     background-color: #222;
   border: none;
   color: white;
-  padding: 20px 32px;
+  padding: 35px 50px;
   text-align: center;
   text-decoration: none;
   display: inline;
   font-size: 18px;
-  margin: 4px 2px;
+  margin: 4px 4px;
   cursor: pointer;
 }
-
-
 
 h3 {
     font-size: 30px;
@@ -164,6 +182,7 @@ img:not(#logo) {
 .about {
     background-color: #ffe6ac;
     overflow: hidden;
+    padding-top: 10px;
 }
 
 .services {
@@ -177,16 +196,21 @@ img:not(#logo) {
 }
 .vision {
     background-image: url("../images/vision.jpg");
-    width: 600px;    
+    max-width: 600px;    
     background-repeat: no-repeat;
     color: white;
     background-size: cover;
     display: flex;
-    padding: 20px;
+    padding: 2px;
     align-items: center;
     position: relative;
     margin: auto;
     
+}
+#learnmore {
+    background-color: #222;
+    opacity: 0.8;
+    border: 1px solid #c78c06;
 }
 
 hr {
