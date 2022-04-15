@@ -27,9 +27,9 @@
             <ul>
                 <li><a href="#Home" class="active" >Home</a></li>
                 <li><a href="#About-Us">About Us</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#Team">Team</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Serv">Services</a></li>
+                <li><a href="#people">Team</a></li>
+                <li><a href="#Contact-us">Contact</a></li>
             </ul>
                     <!--Adds class to modify the width of the search bar/color as well as style the search button with the colors required-->                
                  <div class="Search-bar">
@@ -43,7 +43,7 @@
     </header>
        <!--Addition to each section a div with class of wrapper to set a fixed width structure for the content of entire webpage-->
         <!--Adds class of welcome to affect the design by overlaying text over image-->
-    <section class="main">
+    <section class="main" id="Home" >
         <div class="welcome">
             <div class="color-overlay"></div>
             <div class="wrapper">
@@ -55,9 +55,9 @@
         </div>
     </section>
 
-     <section class="about">
+     <section class="about" id="About-Us">
          <div class="wrapper">
-             <img src="images/about-us.jpg" class="about" alt="table-tennis-img"><br><br><br>
+            <img src="images/about-us.jpg" class="about" alt="table-tennis-img"><br><br><br>
             <h2>About Us</h2><br>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos cupiditate voluptates expedita laborum quasi tempora recusandae, similique sed, architecto possimus provident? Voluptatem, harum soluta tempore eveniet minus aliquid vel cupiditate.</p><br>
                 <p>Vel incidunt necessitatibus voluptatum tenetur optio maiores facilis nam! Mollitia maiores quibusdam magnam sapiente aut. Voluptatem id rerum voluptate, aspernatur iste impedit excepturi, nostrum blanditiis totam alias architecto, distinctio beatae!</p>
@@ -66,7 +66,7 @@
 
      <br><br>
      <!--Adds specific sections and divs per topic identified by classes so they can be selected and manipulated individually by using flex or grid to design a responsive and orginzed layout-->
-    <section class="services">
+    <section class="services" id="Serv">
         <div class="wrapper">
             <h2>Our Services</h2><br>
             <div class="digital">
@@ -120,7 +120,7 @@
 
      </section>
      <br>
-     <section class="team">
+     <section class="team" id="people">
          <div class="wrapper">
             <h2>Our Team</h2><br>
             <div class="john">
@@ -140,7 +140,7 @@
          </div>
      </section>
      <br>
-     <section class="contact">
+     <section class="contact" id="Contact-us">
          <div class="wrapper">
              <h2>Contact us</h2><br>
                  <h3>Send us a message</h3>

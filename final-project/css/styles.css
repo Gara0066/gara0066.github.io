@@ -12,15 +12,14 @@ html {
 }
 body {
    max-width: 600px;
-   padding: auto;
+   padding: 0;
 
 }
 
 header {
     max-width: 600px;
-    margin: 10px;
-
 }
+
 .main {
     max-width: 600px;
 
@@ -172,10 +171,6 @@ button[type="button"] {
 h3 {
     font-size: 30px;
     font-weight: bold;
-}
-/* modifies the width of all img, except the logo wich has its own style*/
-img:not(#logo) {
-    width: 600px;
 }
 
 .about {
