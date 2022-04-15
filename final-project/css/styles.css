@@ -231,6 +231,12 @@ input[type=text],input[type=email],textarea {
     border: 1px solid #222;
     border-radius: 3px;
 }
+/*sets a min-height for user experience and resize possible only in x plane*/   
+textarea {
+    min-height: 100px;
+    resize: vertical;
+    width: 99%;
+}
 input[type=submit] {
     background-color: #222;
     color: #c78c06;
