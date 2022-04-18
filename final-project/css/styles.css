@@ -8,12 +8,11 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
-
 }
+
 body {
    max-width: 600px;
    padding: 0;
-
 }
 
 header {
@@ -22,53 +21,50 @@ header {
 
 .main {
     max-width: 600px;
-
 }
+
 /* Adds a wrapper class to control the entire content( section and divs) of the webpage for a responsive arrangement*/
 .wrapper {
     max-width: 600px;
     margin: 10px;
     overflow: hidden;
     max-height: max-content;
-
 }
 
 nav {
-    background-color: #222;
-    
+    background-color: #222;    
 }
 
 nav ul {
     list-style-type: none;
-    text-align: center;
-     
+    text-align: center;     
 }
+
 /* adds an id of logo to discriminate this specific image(star logo) without affecting the other images with the purpose of adjusting its size*/
 #logo {
     position:absolute;
     margin-top: 5px;
     display: block;
-    margin-left: 50px;
-   
+    margin-left: 50px;   
 }
+
 /* adds layout of grid to display top nav in a row for easy management avoiding using float and clear*/
 nav ul li a {
     color: #c78c06;
     padding: 20px;
     text-decoration: none;
     display: grid;
-    
-
 }
-/* separates home nav link to affect the design because of its unique design*/
+
+/* separates home nav link to affect the style because of its unique design*/
 nav ul li a.active {
     background-color: #c78c06;
     color: #222;
     height: 200px;
     align-self: center;
-    padding-top: 150px;
-    
+    padding-top: 150px;    
 }
+
 /* to affect just the design when the cursor is on top of each link for the navigation section*/
 nav li a:hover {
     background-color: #c78c06;
@@ -76,20 +72,19 @@ nav li a:hover {
 }
 
 .Search-bar {
-    width: 100%;
+    max-width: 100%;
     position: relative;
     display: flex;
-    padding: 10px;;
-    
+    padding: 10px;    
 }
+
 .search {
-    width: 100%;
     border: 2px solid #c78c06;
     height: 40px;
     outline: none;
-    padding: 10px;
-    
+    padding: 10px;    
 }
+
 /* add a class of searchbutton to style the icon by changing color, size, to match the overall color palette of the webpage and match the height of the search bar*/
 .searchButton {
     width: 40px;
@@ -122,8 +117,7 @@ nav li a:hover {
     display: flex;
     align-items: center;
     position: relative;
-    z-index: -2;
-    
+    z-index: -2;    
 }
 
 img:not(#logo) {
@@ -138,16 +132,16 @@ img:not(#logo) {
     font-weight: 600;
     font-size: 22px;
 }
+
 h1 {
     color: white;
     font-size: 50px;
     z-index: 1;
-    line-height: 1.5;
-    
+    line-height: 1.5;    
 }
+
 .welcome p {
-    color: white;
-    
+    color: white;    
 }
 
 h2 {
@@ -155,11 +149,12 @@ h2 {
     font-weight:bold;
     padding-left: 20px;
 }
+
 p, h3, h4 {
     padding: 0 10px 20px 10px;
     line-height: 1.5;
-
 }
+
 /* affects the style of all the buttons of each section for the entire page except the ones with id*/
 button[type="button"] {
     background-color: #222;
@@ -187,14 +182,14 @@ h3 {
 
 .services {
     display: grid;
-
 }
+
 .digital,.marketing, .video, .web, .print, .bob, .john {
     background-color: #ffe6ac;
     padding: 0 0 20px 0;
     max-width: 100%;
-
 }
+
 .vision {
     background-image: url("../images/vision.jpg");
     max-width: 600px;    
@@ -205,8 +200,7 @@ h3 {
     padding: 2px;
     align-items: center;
     position: relative;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 /* adds id connect to separate and modify only the design of the button for the vision section*/
@@ -233,12 +227,14 @@ input[type=text],input[type=email],textarea {
     border: 1px solid #222;
     border-radius: 3px;
 }
+
 /*sets a min-height for user experience and resize possible only in x plane*/   
 textarea {
     min-height: 100px;
     resize: vertical;
     width: 99%;
 }
+
 input[type=submit] {
     background-color: #222;
     color: #c78c06;
@@ -261,8 +257,8 @@ td, th {
     border: 1px solid #222;
     text-align: left;
     padding: 20px;
-
 }
+
 th {
     background-color: #ffe6ac;
     text-align: center;
@@ -282,6 +278,7 @@ footer {
     padding-bottom: 30px;
     font-size: 14px;
 }
+
 footer a {
     color: #c78c06;
 }
