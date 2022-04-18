@@ -23,14 +23,6 @@ body {
     overflow: hidden;
 }
 
-header {
-    max-width: 600px;
-}
-
-.main {
-    max-width: 600px;
-}
-
 nav {
     background-color: #222;    
 }
