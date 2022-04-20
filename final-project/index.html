@@ -44,8 +44,8 @@
         <!--Adds class of welcome to affect the design by overlaying text over image-->
     <section class="main" id="Home" >
         <div class="welcome">
-            <div class="color-overlay"></div>
             <div class="wrapper">
+                <div class="color-overlay"></div>
                 <h1>Welcome to Three Star Media</h1><br>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum error repellat a repudiandae explicabo maxime ut vitae mollitia delectus accusantium nemo sint tempora, perferendis facere. Illo ipsum atque quas illum.</p><br>
                 <button type="button" id="connect">Connect with us
@@ -127,6 +127,7 @@
      <section class="team" id="people">         
             <h2>Our Team</h2><br>
             <div class="john">
+                <!-- separate each img and text portion into individual divs, that way, it is used correct the flex property by affecting each div as one direct child instead of having multiple childs, to fix errors in the display from the media query-->
                 <div class="john-img">
                     <img src="images/john.jpg" class="john" alt="John-Doe-picture">
                 </div>

@@ -315,7 +315,7 @@ footer a {
         position:relative;
         display: flex;
         flex: 1;
-        margin: 10px 100px 10px 0px;
+        margin: 10px 50px 10px 0px;
         padding: 0 50px 0 0;
         height: 80px;
     }
@@ -325,22 +325,20 @@ footer a {
         flex: 2;
         height: 100%;
         margin-bottom: 10px;
-        justify-content: space-between;
        
     }
     nav ul li a {
         display: flex;
-        margin-top: 10px;
-        padding-top: 30px;
+        margin: 30px;
+        padding-top: 15px;
         
 
     }
     nav ul li a.active { 
         display: flex;
-        justify-content: space-between;
         height: 100%;
-        padding-top: 30px;
-        padding-bottom: 40px;
+        padding-top: 15px;
+        margin-bottom: 30px;
        
     }
     .Search-bar {
@@ -351,8 +349,8 @@ footer a {
         
     }
     h1 {
-        font-size: 75px;
-        padding-top: 60px;
+        font-size: 85px;
+        padding-top: 15px;
     }
     .welcome {
         width: 100%;
@@ -366,19 +364,22 @@ footer a {
     }
 
     #connect {
-       margin-bottom: 30px;
+       margin-bottom: 15px;
+       margin-left: 15px;
     }
     .about {
         padding: 15px 0 15px 0;
         display: flex;
         grid-template-columns: 1fr 1fr;
     }
+    /*set a equally width to img and text to display info side-by side*/
     .aboutimg {
         width: 50%;
     }
     .container {
         width: 50%;
     }
+    /* adds grid gap to separate each little section equally/ selects grid to properly display 2 rows, specifying each area within the grid design/ adds to each class a grid-area name to reference them in the grid-template-area*/
     .services { 
         padding: 0 90px 0 90px;      
         width: 100%;
@@ -427,7 +428,7 @@ footer a {
         margin-left: 15px;
         grid-area: five;        
     }
-    
+    /* adds individual classes to both images and to the entire text of each team member to modify the entire div as direct child of main class (.john) ( .bob) instead of each element h2, hr, p, individually*/
     .john {
         display: flex;
     }
@@ -452,7 +453,7 @@ footer a {
     hr {
         width: auto;
     }
-    
+    /* uses same model of grid-template-area and assigns individuals grid-area to classes, to match the display*/
     .contact {
         grid-gap: 15px;
         display: grid;
