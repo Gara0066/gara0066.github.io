@@ -300,7 +300,6 @@ footer a {
     } 
     .wrapper {
         max-width: 1000px;
-        max-height: max-content;
         margin-left: auto;
         margin-right: auto;
 
@@ -353,10 +352,9 @@ footer a {
 
     .about {
         display: flex;
-        width: 100%;
-        grid-template-columns: 1fr 1fr;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
-
          
     .services {
         display: grid;
@@ -381,26 +379,6 @@ footer a {
     }
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .john {
         display: flex;
 
@@ -413,7 +391,29 @@ footer a {
     .contact {
         display: grid;
         grid-template-columns: repeat( 2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
+
+    .contact .form {
+        grid-column: 1/ span 1;
+    }
+    .contact .map {
+        grid-column: 2/span 1;
+    }
+
+    .contact .table {
+        grid-column: 1/ span 2;
+    }
+
+    footer {
+        background-color: #222;
+        max-width: 1200px;
+        padding: 0;
+
+
+    }
+    
+
     
    
 }
