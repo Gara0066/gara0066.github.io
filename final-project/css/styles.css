@@ -283,9 +283,14 @@ footer a {
 @media screen and (min-width: 760px){
     /* Styles applied for minimum width of 760px and over */
     /*set max-width for entire body to constrict content and background*/
+    html {
+        min-width: 760px; 
+    }
+
+
     body {
         background-color: #fff;
-        max-width: 1200px;
+        max-width: 100%;
         padding: 0;
     }
 
@@ -300,6 +305,7 @@ footer a {
         justify-content: space-around; 
         
     } 
+    /* set the container to a maximun width to wrap the content of entire webpage*/
     .wrapper {
         max-width: 1200px;
         padding: 0 90px 0 90px;
@@ -319,18 +325,19 @@ footer a {
         flex: 2;
         height: 100%;
         margin-bottom: 10px;
+        justify-content: space-between;
        
     }
     nav ul li a {
         display: flex;
         margin-top: 10px;
         padding-top: 30px;
-        justify-content: space-between;
+        
 
     }
     nav ul li a.active { 
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         height: 100%;
         padding-top: 30px;
         padding-bottom: 40px;
@@ -340,7 +347,7 @@ footer a {
         margin-left: auto;
         flex: 1;
         height: 100%;
-        padding: 20px;
+        padding: 20px 0 20px 90px;
         
     }
     h1 {
@@ -348,23 +355,22 @@ footer a {
         padding-top: 60px;
     }
     .welcome {
-        background-image: url("../images/main-banner.jpg");
-        width: 1200px;
+        width: 100%;
         height: 600px;
             
     }
     
     .color-overlay {
-        width: 1000px;
+        width: 1200px;
         height: 80%;
-        margin-left: 80px;
+        margin-left: 90px;
     }
 
     #connect {
        margin-bottom: 30px;
     }
     .about {
-        width: 1200px;
+        width: 100%;
         padding: 15px 0 15px 0;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -402,14 +408,12 @@ footer a {
     }
 
     .services .video {
-        height: 620px;
         margin-top: 15px;
         margin-right: 7px;
         grid-area: three;        
     }
 
     .services .web {
-        height: 620px;
         margin-top: 15px;
         margin-left: 7px;
         margin-right: 15px;
@@ -417,7 +421,6 @@ footer a {
     }
 
     .services .print {
-        height: 620px;
         margin-top: 15px;
         margin-left: 15px;
         grid-area: five;        
@@ -433,35 +436,45 @@ footer a {
         flex-direction: row-reverse;
 
     }
+    hr {
+        width: auto;
+    }
+
+    team h3, h4{
+        padding: 0;
+    }
     .contact {
+        grid-gap: 15px;
         display: grid;
         grid-template-columns: repeat( 2, 1fr);
         grid-template-rows: 2fr, 1fr;
         grid-template-areas:
-        ""
+        "form map"
+        "table table"
 
+    }
+    .contact h2 {
+        position: absolute;
+        padding: 5px;
     }
 
     .contact .form {
+        margin-top: 90px;
         grid-area: form;
     }
     .contact .map {
+        margin-top: 90px;
         grid-area: map;
     }
 
     .contact .table {
+        align-self: center;
         grid-area: table;
     }
 
     footer {
         background-color: #222;
-        max-width: 1200px;
-        padding: 0;
-
-
-    }
-    
-
-    
-   
+        max-width: 100%;
+        
+    }      
 }
