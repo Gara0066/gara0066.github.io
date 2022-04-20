@@ -370,35 +370,58 @@ footer a {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
+
     .about h2, p {
         float: right;
         
     }
 
-         
-    .services {
-        padding: 020px 0 20px;        
+    .services { 
+        padding: 0 90px 0 90px;      
         width: 100%;
         display: grid;
         grid-template-columns: repeat( 6, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+        "one one one two two two"
+        "three three four four five five"
         
     }
+    .services h2 {
+        position: absolute;
+        font-size: 45px;
+        padding: 5px 0 5px 50px;
+        margin-left: 50px;
+    }
     .services .digital {
-        grid-column: 1/span 3;
+        margin-top: 80px;
+        margin-right: 15px;
+        grid-area: one;
     }
+
     .services .marketing {
-        grid-column: 4/span 3;
+        margin-top: 80px;
+        margin-left: 15px;
+        grid-area: two;
     }
+
     .services .video {
-        grid-column: 1/span 2;
+        margin-top: 15px;
+        margin-right: 15px;
+        grid-area: three;        
     }
+
     .services .web {
-        grid-column: 3/span 2;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        grid-area: four;        
     }
+
     .services .print {
-        grid-column: 5/span 2;
+        margin-top: 15px;
+        margin-left: 15px;
+        grid-area: five;        
     }
     
 
@@ -414,7 +437,7 @@ footer a {
     .contact {
         display: grid;
         grid-template-columns: repeat( 2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 2fr);
     }
 
     .contact .form {
