@@ -363,5 +363,15 @@ footer a {
         grid-template-columns: repeat( 3, 1fr);
         
     }
+    .john {
+        display: flex;
+
+    }
+    .bob {
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+    
    
 }
