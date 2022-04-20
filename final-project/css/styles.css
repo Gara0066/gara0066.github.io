@@ -352,17 +352,55 @@ footer a {
     }
 
     .about {
-        display: grid;
+        display: flex;
         width: 100%;
-        padding: 50px;
         grid-template-columns: 1fr 1fr;
     }
-     
+
+         
     .services {
         display: grid;
-        grid-template-columns: repeat( 3, 1fr);
+        grid-template-columns: repeat( 6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         
     }
+    .services .digital {
+        grid-column: 1/span 3;
+    }
+    .services .marketing {
+        grid-column: 4/span 3;
+    }
+    .services .video {
+        grid-column: 1/span 2;
+    }
+    .services .web {
+        grid-column: 3/span 2;
+    }
+    .services .print {
+        grid-column: 5/span 2;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .john {
         display: flex;
 
@@ -371,6 +409,10 @@ footer a {
         display: flex;
         flex-direction: row-reverse;
 
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: repeat( 2, 1fr);
     }
     
    
