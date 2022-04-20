@@ -380,6 +380,8 @@ footer a {
         padding: 0 90px 0 90px;      
         width: 100%;
         display: grid;
+        grid-gap: 5px;
+        height: fit-content;
         grid-template-columns: repeat( 6, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas:
@@ -395,8 +397,8 @@ footer a {
     }
     .services .digital {
         margin-top: 80px;
-        margin-right: 15px;
         grid-area: one;
+        
     }
 
     .services .marketing {
@@ -406,19 +408,22 @@ footer a {
     }
 
     .services .video {
+        height: 620px;
         margin-top: 15px;
-        margin-right: 15px;
+        margin-right: 7px;
         grid-area: three;        
     }
 
     .services .web {
+        height: 620px;
         margin-top: 15px;
-        margin-left: 15px;
+        margin-left: 7px;
         margin-right: 15px;
         grid-area: four;        
     }
 
     .services .print {
+        height: 620px;
         margin-top: 15px;
         margin-left: 15px;
         grid-area: five;        
@@ -437,18 +442,21 @@ footer a {
     .contact {
         display: grid;
         grid-template-columns: repeat( 2, 1fr);
-        grid-template-rows: repeat(2, 2fr);
+        grid-template-rows: 2fr, 1fr;
+        grid-template-areas:
+        ""
+
     }
 
     .contact .form {
-        grid-column: 1/ span 1;
+        grid-area: form;
     }
     .contact .map {
-        grid-column: 2/span 1;
+        grid-area: map;
     }
 
     .contact .table {
-        grid-column: 1/ span 2;
+        grid-area: table;
     }
 
     footer {
