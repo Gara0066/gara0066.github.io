@@ -301,9 +301,8 @@ footer a {
         
     } 
     .wrapper {
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 1200px;
+        padding: 0 90px 0 90px;
 
     }
     #logo {
@@ -365,15 +364,22 @@ footer a {
        margin-bottom: 30px;
     }
     .about {
-        display: flex;
-        width: 1200px;
+        width: 100%;
+        margin: auto;
+        padding: 15px 90px 15px 90px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
-    .about img {
-        width: 10%;
+    
+    .about h2, p {
+        float: right;
+        
     }
 
          
     .services {
+        padding: 020px 0 20px;        
+        width: 100%;
         display: grid;
         grid-template-columns: repeat( 6, 1fr);
         grid-template-rows: repeat(2, 1fr);
