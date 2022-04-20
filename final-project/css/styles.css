@@ -282,6 +282,7 @@ footer a {
 
 @media screen and (min-width: 760px){
     /* Styles applied for minimum width of 760px and over */
+    /*set max-width for entire body to constrict content and background*/
     body {
         background-color: #fff;
         max-width: 1200px;
@@ -291,6 +292,7 @@ footer a {
     header {
         background-color: #222;
     }
+    /* changes style of navigation to place it in a row */
     .topnav, nav {
         max-width: 100%;
         display: flex;
@@ -304,6 +306,15 @@ footer a {
         margin-right: auto;
 
     }
+    #logo {
+        position:relative;
+        display: flex;
+        flex: 1;
+        margin: 10px 100px 10px 0px;
+        padding: 0 50px 0 0;
+        height: 80px;
+    }
+
     nav ul {
         display: flex;
         flex: 2;
@@ -311,31 +322,24 @@ footer a {
     }
     nav ul li a {
         display: flex;
+        padding-top: 40px;
 
     }
     nav ul li a.active { 
         display: flex;
         justify-content: space-around;
         height: 100%;
-        padding-top: 10px;
+        padding-top: 40px;
        
     }
-   
-    #logo {
-        display: flex;
-        flex: 1;
-        padding: 0;
-        height: 100px;
-    }
-    
     Search-bar {
-        display: flex;
         margin-left: auto;
         flex: 1;
         height: 100%;
+        padding: 20px;
+        
         
     }
-
     
     .color-overlay {
         width: 1000px;
@@ -349,12 +353,16 @@ footer a {
         height: 600px;
             
     }
-
     .about {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    .about img {
+        width: 50%;
+        flex: 0 0 50%;
+    }
+
          
     .services {
         display: grid;
