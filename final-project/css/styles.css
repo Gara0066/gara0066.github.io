@@ -301,6 +301,9 @@ footer a {
     .wrapper {
         max-width: 1000px;
         max-height: max-content;
+        margin-left: auto;
+        margin-right: auto;
+
     }
     nav ul {
         display: flex;
@@ -349,7 +352,16 @@ footer a {
     }
 
     .about {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        width: 100%;
+        padding: 50px;
+        grid-template-columns: 1fr 1fr;
+    }
+     
+    .services {
+        display: grid;
+        grid-template-columns: repeat( 3, 1fr);
+        
+    }
    
 }
