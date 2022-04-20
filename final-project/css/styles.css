@@ -290,7 +290,7 @@ footer a {
 
     body {
         background-color: #fff;
-        max-width: 100%;
+        min-width: 100%;
         padding: 0;
     }
 
@@ -305,12 +305,12 @@ footer a {
         justify-content: space-around; 
         
     } 
-    /* set the container to a maximun width to wrap the content of entire webpage*/
+    /* set the container to a maximum width to wrap the content of entire webpage*/
     .wrapper {
         max-width: 1200px;
-        padding: 0 90px 0 90px;
-
+    
     }
+
     #logo {
         position:relative;
         display: flex;
@@ -347,7 +347,7 @@ footer a {
         margin-left: auto;
         flex: 1;
         height: 100%;
-        padding: 20px 0 20px 90px;
+        padding: 20px 0 20px 0px;
         
     }
     h1 {
@@ -363,20 +363,22 @@ footer a {
     .color-overlay {
         width: 1200px;
         height: 80%;
-        margin-left: 90px;
     }
 
     #connect {
        margin-bottom: 30px;
     }
     .about {
-        width: 100%;
         padding: 15px 0 15px 0;
-        display: grid;
+        display: flex;
         grid-template-columns: 1fr 1fr;
     }
-
-
+    .aboutimg {
+        width: 50%;
+    }
+    .container {
+        width: 50%;
+    }
     .services { 
         padding: 0 90px 0 90px;      
         width: 100%;
@@ -426,23 +428,31 @@ footer a {
         grid-area: five;        
     }
     
-
     .john {
         display: flex;
-
     }
+    .john-img {
+        width: 50%;
+    }
+    .john-text {
+        width: 50%;
+    }
+
     .bob {
         display: flex;
         flex-direction: row-reverse;
-
     }
+    .bob-img {
+        width: 50%;
+    }
+    .bob-text {
+        width: 50%;
+    }
+
     hr {
         width: auto;
     }
-
-    team h3, h4{
-        padding: 0;
-    }
+    
     .contact {
         grid-gap: 15px;
         display: grid;
