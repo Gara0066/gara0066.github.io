@@ -364,17 +364,12 @@ footer a {
        margin-bottom: 30px;
     }
     .about {
-        width: 100%;
-        margin: auto;
-        padding: 15px 90px 15px 90px;
+        width: 1200px;
+        padding: 15px 0 15px 0;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .about h2, p {
-        float: right;
-        
-    }
 
     .services { 
         padding: 0 90px 0 90px;      
@@ -383,7 +378,6 @@ footer a {
         grid-gap: 5px;
         height: fit-content;
         grid-template-columns: repeat( 6, 1fr);
-        grid-template-rows: repeat(2, 1fr);
         grid-template-areas:
         "one one one two two two"
         "three three four four five five"
