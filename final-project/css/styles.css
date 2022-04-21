@@ -302,60 +302,50 @@ footer a {
         max-width: 100%;
         display: flex;
         height: 100px;
-        justify-content: space-around; 
-        
+        justify-content: space-around;        
     } 
+
     /* set the container to a maximum width to wrap the content of entire webpage*/
     .wrapper {
-        max-width: 1200px;
-    
+        max-width: 1200px;    
     }
 
     #logo {
         position:relative;
-        display: flex;
-        flex: 1;
         margin: 10px 50px 10px 0px;
         padding: 0 50px 0 0;
         height: 80px;
     }
 
-    nav ul {
+    ul {
         display: flex;
-        flex: 2;
-        height: 100%;
-        margin-bottom: 10px;
-       
+        align-items: center;       
     }
-    nav ul li a {
-        display: flex;
-        margin: 30px;
-        padding-top: 15px;
-        
 
+    nav ul li a {
+        margin: 30px;
     }
-    nav ul li a.active { 
-        display: flex;
-        height: 100%;
+
+    nav ul li a.active {
+        align-items: center;
         padding-top: 15px;
-        margin-bottom: 30px;
        
     }
     .Search-bar {
         margin-left: auto;
         flex: 1;
         height: 100%;
-        padding: 20px 0 20px 0px;
-        
+        padding: 20px 0 20px 0px;        
     }
+
     h1 {
         font-size: 85px;
         padding-top: 15px;
     }
+
     .welcome {
         width: 100%;
-        height: 600px;
-            
+        height: 600px;            
     }
     
     .color-overlay {
@@ -369,8 +359,10 @@ footer a {
     }
     .about {
         padding: 15px 0 15px 0;
-        display: flex;
-        grid-template-columns: 1fr 1fr;
+    }
+
+    .about .wrapper {
+       display: flex;
     }
     /*set a equally width to img and text to display info side-by side*/
     .aboutimg {
