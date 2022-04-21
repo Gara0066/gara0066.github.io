@@ -449,6 +449,13 @@ footer a {
     .vision h3 {
         padding-top: 15px;
     }
+    #learnmore {
+        margin-bottom: 15px;
+    }
+    .team h2 {
+        font-size: 45px;
+        padding: 30px 0 5px 0;
+    }
 
     /* adds individual classes to both images and to the entire text of each team member to modify the entire div as direct child of main class (.john) ( .bob) instead of having each element h2, hr, p, as direct childs*/
     .john {
@@ -458,7 +465,12 @@ footer a {
         width: 50%;
     }
     .john-text {
+        padding-top: 15px;
         width: 50%;
+    }
+    .john-text h3 {
+        padding: 0 0 0 10px;
+        margin: auto;
     }
 
     .bob {
@@ -469,7 +481,12 @@ footer a {
         width: 50%;
     }
     .bob-text {
+        padding-top: 15px;
         width: 50%;
+    }
+    .bob-text h3 {
+        padding: 0 0 0 10px;
+        margin: auto;
     }
 
     hr {
