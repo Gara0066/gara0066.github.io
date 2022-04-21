@@ -287,7 +287,6 @@ footer a {
         min-width: 760px; 
     }
 
-
     body {
         background-color: #fff;
         min-width: 100%;
@@ -328,7 +327,7 @@ footer a {
 
     nav ul li a.active {
         align-items: center;
-        padding-top: 15px;
+        padding-top: 15px;   
        
     }
     .Search-bar {
@@ -359,7 +358,7 @@ footer a {
         font-weight: 600;
         font-size: 22px;
     }
-    }
+    
     .about {
         padding: 15px 0 15px 0;
     }
@@ -524,7 +523,6 @@ footer a {
 
     footer {
         background-color: #222;
-        max-width: 100%;
-        
-    }      
-}
+        max-width: 100%;        
+    }
+}     
