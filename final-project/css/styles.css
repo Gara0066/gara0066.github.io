@@ -281,8 +281,8 @@ footer a {
 }
 
 @media screen and (min-width: 760px){
-    /* Styles applied for minimum width of 760px and over */
-    /*set max-width for entire body to constrict content and background*/
+    /* The breakpoint to style is for minimum width of 760px and over */
+    /*set min-width for entire body to constrict content and background*/
     html {
         min-width: 760px; 
     }
@@ -395,8 +395,7 @@ footer a {
     .services h2 {
         position: absolute;
         font-size: 45px;
-        padding: 5px 0 5px 50px;
-        margin-left: 50px;
+        padding: 5px 0 5px 0;
     }
     .services .digital {
         margin-top: 80px;
@@ -428,7 +427,12 @@ footer a {
         margin-left: 15px;
         grid-area: five;        
     }
-    /* adds individual classes to both images and to the entire text of each team member to modify the entire div as direct child of main class (.john) ( .bob) instead of each element h2, hr, p, individually*/
+
+    .vision h3 {
+        padding-top: 15px;
+    }
+
+    /* adds individual classes to both images and to the entire text of each team member to modify the entire div as direct child of main class (.john) ( .bob) instead of having each element h2, hr, p, as direct childs*/
     .john {
         display: flex;
     }
