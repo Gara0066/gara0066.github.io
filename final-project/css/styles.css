@@ -333,7 +333,6 @@ footer a {
     }
     .Search-bar {
         margin-left: auto;
-        flex: 1;
         height: 100%;
         padding: 20px 0 20px 0px;        
     }
@@ -341,6 +340,7 @@ footer a {
     h1 {
         font-size: 85px;
         padding-top: 15px;
+        padding-left: 5px;
     }
 
     .welcome {
@@ -355,7 +355,10 @@ footer a {
 
     #connect {
        margin-bottom: 15px;
-       margin-left: 15px;
+       margin-left: 10px;
+        font-weight: 600;
+        font-size: 22px;
+    }
     }
     .about {
         padding: 15px 0 15px 0;
@@ -364,6 +367,7 @@ footer a {
     .about .wrapper {
        display: flex;
     }
+
     /*set a equally width to img and text to display info side-by side*/
     .aboutimg {
         width: 50%;
@@ -376,48 +380,70 @@ footer a {
         padding: 0;      
         width: 100%;
         display: grid;
-        grid-gap: 5px;
+        grid-gap: 15px;
         height: fit-content;
         grid-template-columns: repeat( 6, 1fr);
         grid-template-areas:
         "one one one two two two"
-        "three three four four five five"
-        
+        "three three four four five five"        
+    }
+    /*changes the display of the buttons targeting the style for the service sections*/
+    button[type="button"]:not(#connect, #learnmore) {
+        align-items: center;
+        width: 90%;
     }
     .services h2 {
         position: absolute;
         font-size: 45px;
         padding: 5px 0 5px 0;
     }
+
     .services .digital {
         margin-top: 80px;
-        grid-area: one;
-        
+        grid-area: one;        
+    }
+    .digital img {
+        margin-bottom: 30px;
     }
 
     .services .marketing {
         margin-top: 80px;
-        margin-left: 15px;
         grid-area: two;
+    }
+    .marketing img {
+        margin-bottom: 30px;
+    }
+    /* discriminate buttons to modify the margin to center them in their own sections*/
+    .digital button, .marketing button {
+        margin-left: 30px;
     }
 
     .services .video {
         margin-top: 15px;
-        margin-right: 7px;
         grid-area: three;        
+    }
+    .video img {
+        margin-bottom: 30px;
     }
 
     .services .web {
         margin-top: 15px;
-        margin-left: 7px;
-        margin-right: 15px;
         grid-area: four;        
+    }
+    .web img {
+        margin-bottom: 30px;
     }
 
     .services .print {
         margin-top: 15px;
-        margin-left: 15px;
         grid-area: five;        
+    }
+    .print img {
+        margin-bottom: 30px;
+    }
+    /* discriminate buttons to modify the margin to center them in their own sections*/
+    .video button, .web button, .print button {
+        margin-left: 20px;
     }
 
     .vision h3 {
