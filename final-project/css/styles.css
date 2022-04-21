@@ -182,8 +182,7 @@ h3 {
 .digital, .marketing, .video, .web, .print, .bob, .john {
     background-color: #ffe6ac;
     width: 100%;
-    padding-bottom: 10px;
-    
+    padding-bottom: 10px;    
 }
 
 .vision {
@@ -282,6 +281,7 @@ footer a {
 
 @media screen and (min-width: 760px){
     /* The breakpoint to style is for minimum width of 760px and over */
+
     /*set min-width for entire body to constrict content and background*/
     html {
         min-width: 760px; 
@@ -296,6 +296,7 @@ footer a {
     header {
         background-color: #222;
     }
+
     /* changes style of navigation to place it in a row */
     .topnav, nav {
         max-width: 100%;
@@ -303,6 +304,7 @@ footer a {
         height: 120px;
         justify-content: space-around;        
     } 
+
     #logo {
         position:relative;
         margin: 20px 50px 20px 0px;
@@ -323,19 +325,19 @@ footer a {
         display: flex;
         align-items: center;
         padding: 20px 30px; 
-        height: auto;  
-       
+        height: auto;       
     }
+
     .Search-bar {
         margin-left: auto;
         height: 100%;
         padding: 35px 0 20px 0px;        
     }
+
     /* set the container to a maximum width to wrap the content of entire webpage*/
     .wrapper {
         max-width: 1200px;    
     }
-
 
     h1 {
         font-size: 85px;
@@ -372,9 +374,11 @@ footer a {
     .aboutimg {
         width: 50%;
     }
+
     .container {
         width: 50%;
     }
+
     /* adds grid gap to separate each little section equally/ selects grid to properly display 2 rows, specifying each area within the grid design/ adds to each class a grid-area name to reference them in the grid-template-area*/
     .services { 
         padding: 0;      
@@ -387,11 +391,13 @@ footer a {
         "one one one two two two"
         "three three four four five five"        
     }
+
     /*changes the display of the buttons targeting the style for the service sections*/
     button[type="button"]:not(#connect, #learnmore) {
         align-items: center;
         width: 90%;
     }
+
     .services h2 {
         position: absolute;
         font-size: 45px;
@@ -413,6 +419,7 @@ footer a {
     .marketing img {
         margin-bottom: 30px;
     }
+
     /* discriminate buttons to modify the margin to center them in their own sections*/
     .digital button, .marketing button {
         margin-left: 30px;
@@ -441,6 +448,7 @@ footer a {
     .print img {
         margin-bottom: 30px;
     }
+
     /* discriminate buttons to modify the margin to center them in their own sections*/
     .video button, .web button, .print button {
         margin-left: 20px;
@@ -449,12 +457,14 @@ footer a {
     .vision h3 {
         padding-top: 15px;
     }
+
     #learnmore {
         margin-bottom: 15px;
     }
+
     .team h2 {
         font-size: 45px;
-        padding: 30px 0 5px 0;
+        padding: 30px 0 20px 0;
     }
 
     /* adds individual classes to both images and to the entire text of each team member to modify the entire div as direct child of main class (.john) ( .bob) instead of having each element h2, hr, p, as direct childs*/
@@ -505,8 +515,8 @@ footer a {
         grid-template-areas:
         "form map"
         "table table"
-
     }
+
     .contact h2 {
         position: absolute;
         padding: 5px;
@@ -516,6 +526,7 @@ footer a {
         margin-top: 90px;
         grid-area: form;
     }
+
     .contact .map {
         margin-top: 90px;
         grid-area: map;
