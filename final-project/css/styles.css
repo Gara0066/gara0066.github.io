@@ -214,6 +214,10 @@ hr {
     margin: 10px;
 }
 
+.contact h2, h3 {
+    padding: 0;
+}
+
 /* affects the attributes of the input tags and textarea in the form*/
 input[type=text],input[type=email],textarea {
     width: 99%;
